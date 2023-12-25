@@ -42,10 +42,10 @@ body {
 }
 
 .dm_submit_box button {
-  background-color: red;
+  background-color: #edb24e;
   padding: 15px 25px;
   border-radius: 4px;
-  border: 1px solid red;
+  border: 1px solid #edb24e;
   font-size: 16px;
   color: #fff;
   font-weight: 500;
@@ -55,10 +55,10 @@ body {
 }
 
 #bookNowButton {
-  background-color: red;
+  background-color: #edb24e;
   padding: 15px 25px;
   border-radius: 4px;
-  border: 1px solid red;
+  border: 1px solid #edb24e;
   font-size: 16px;
   color: #fff;
   font-weight: 500;

@@ -33,12 +33,10 @@ function calcRoute() {
             var distanceInKilometers = distance / 1000; // Convert meters to kilometers
             var costPerKilometer = 5; // Cost per kilometer
             var totalCost = distanceInKilometers * costPerKilometer; // Calculate total cost
-            var durationCar = result.routes[0].legs[0].duration.text; // Duration by car
 
             const output = document.querySelector('#output');
             document.querySelector(".distance_output").innerHTML = result.routes[0].legs[0].distance.text;
             document.querySelector(".duration_output").innerHTML = result.routes[0].legs[0].duration.text;
-            document.querySelector(".duration_output_car").innerHTML = durationCar;
 
             // Update the total cost output based on the calculated value
             document.querySelector(".totalcost_output").innerHTML = totalCost.toFixed(2);
